@@ -1,0 +1,30 @@
+# Python
+datasets>=2.19
+pandas>=2.2
+numpy>=1.26
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
+alembic>=1.13
+pydantic-settings>=2.0
+python-dotenv>=1.0
+tqdm>=4.66
+zstandard>=0.25.0
+
+# ML stage
+torch>=2.2
+onnx>=1.16
+onnxscript>=0.1
+onnxruntime>=1.18
+optimum[onnxruntime]>=1.18
+transformers>=4.40
+sentence-transformers>=3.0
+bertopic>=0.16
+catboost>=1.2
+scikit-learn>=1.4
+pgvector>=0.3
+umap-learn>=0.5
+hdbscan>=0.8
+
+# Dashboard
+streamlit>=1.35
+plotly>=5.20

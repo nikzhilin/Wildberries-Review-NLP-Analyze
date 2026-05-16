@@ -1,0 +1,14 @@
+services:
+  db:
+    image: pgvector/pgvector:pg15
+    environment:
+      POSTGRES_USER: wb
+      POSTGRES_PASSWORD: wb
+      POSTGRES_DB: wb_reviews
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
