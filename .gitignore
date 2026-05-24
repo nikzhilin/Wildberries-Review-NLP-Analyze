@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# VS Code
+.vscode
+
+# Models
+models/
+catboost_info/
+
+# Agents
+.claude/
+CLAUDE.md
+.repowise/
+.mcp.json
